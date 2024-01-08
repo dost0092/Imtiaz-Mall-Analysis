@@ -54,7 +54,7 @@ The following numeric columns are considered for outlier detection:
 •	Average_Spending_Per_Purchase
 •	Purchase_Frequency_Per_Month
 •	Brand_Affinity_Score
-Results and Observations
+### Results and Observations
 1.	Age:
 •	The boxplot for Age does not show any outliers, with the data points falling within the whiskers.
 2.	Purchase Amount:
@@ -66,7 +66,7 @@ Results and Observations
 5.	Brand Affinity Score:
 •	The boxplot for Brand Affinity Score shows a few data points beyond the whiskers, indicating the presence of outliers
 
-Analysis of Age and Purchase Amount Distributions:
+### Analysis of Age and Purchase Amount Distributions:
 Age Distribution
 Histogram:
 The histogram of the 'Age' column depicts a relatively uniform distribution.
@@ -81,7 +81,7 @@ Boxplot
 
 K-Means Clustering:
 
-Objective
+### Objective
 Apply K-Means clustering to identify distinct customer segments based on 'Average_Spending_Per_Purchase,' 'Purchase_Frequency_Per_Month,' and 'Brand_Affinity_Score.'
 Methodology
 1.	Data Selection:
@@ -103,7 +103,7 @@ Results
 
 
 
-Discuss the advantages and disadvantages of each algorithm in the context of Imtiaz Mall's specific needs and data characteristics
+### Discuss the advantages and disadvantages of each algorithm in the context of Imtiaz Mall's specific needs and data characteristics
 K-Means:
 Advantages:
 1.	Simple and Fast:
@@ -158,7 +158,7 @@ Considerations for Imtiaz Mall's Needs:
 •	If the clusters have varying sizes and shapes, DBSCAN might be more suitable.
 
 
-MODULE 4: Conclusions and Recommendations
+### Conclusions and Recommendations
 
 Identification of Customer Segments in the Electronics Section:
 The clustering analysis has successfully unveiled distinct customer segments within the electronics section. These segments have been delineated based on a myriad of factors, encompassing purchase behavior, brand affinity, and preferences for product categories.
